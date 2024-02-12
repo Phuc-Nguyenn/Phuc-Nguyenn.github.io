@@ -2274,7 +2274,12 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
+        top:10px;
 	}
+        .image .face{
+            position:relative;
+            display:block;
+        }
 
 		.image img {
 			border-radius: 6px;
@@ -2913,6 +2918,13 @@ input, select, textarea {
 	table.alt tbody tr td {
 		border-color: #e6e6e6;
 	}
+
+/* centered paragraph */
+    .centered_paragraph {
+        max-width: 888px;
+        margin: 0 auto;
+        text-align: justify;
+    }    
 
 /* Wrapper */
 
